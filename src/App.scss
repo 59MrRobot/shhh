@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+  padding: 32px 0;
+
+  // background-image: url("../public/images/background.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: top;
+
+  &__title {
+    font-style: italic;
+
+    color: #fff;
+  }
+
+  &__subtitle {
+    margin: 16px 0 0;
+
+    color: #fff;
+  }
+
+  &__selector {
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    color: #fff;
+  }
+
+  &__output {
+    margin: 16px auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    background-color: #fff;
+    width: max-content;
+  }
+}
+
+.form {
+  margin: 16px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+
+  &__textarea {
+    padding: 4px;
+    width: 50%;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 0 auto;
+
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+  }
+
+  &__container {
+    
+    margin-top: 32px;
+    width: 35%;
+  }
+}
